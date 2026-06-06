@@ -49,9 +49,9 @@ def run_crud_operations():
         student_record = {
             "student_id": 101,
             "name": "Alice Johnson",
-            "age": 20,
+            "age": 40,
             "department": "Computer Science",
-            "marks": 72
+            "marks": 90
         }
         
         student_response = supabase.table("students").insert(student_record).execute()
